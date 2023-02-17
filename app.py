@@ -33,9 +33,10 @@ PROJECTS = {
     "🏆 Implementation of MobileNET with gradio to show": "https://huggingface.co/spaces/abirmunna/ML_ui_Mobilenet",
     "🏆 The Fast and the Furious: Developed a High-Performance Blog API with FastAPI": "https://blogapi.abirmunna.me/docs",
     "🏆 Built a RESTful ToDo App with FastAPI and Python": "https://github.com/abirmunna/todo_app",
+    "🏆 TaskRunner: An app to open your most used softwares in a single click.": "https://github.com/abirmunna/TaskRunner",
     "🏆 Award winning project in NASA SPACE APPS CHALLENGE 2020": "https://github.com/abirmunna/mym-Trojans",
-        "🏆 GreenBD: An initiative of A.I.T GreeNEX to solve solid waste maagement problem in Bangladesh": "https://youtu.be/u1GK763I1PI",
-    "🏆 Smart Home Automation Operated by Bluetooth Expertise (Bangladesh Perspective) ,Best Paper Award by IRAJ": "https://iraj.doionline.org/dx/IJAECS-IRAJ-DOIONLINE-16273",
+    "🏆 GreenBD: An initiative of A.I.T GreeNEX to solve solid waste maagement problem in Bangladesh": "https://youtu.be/u1GK763I1PI",
+    "🏆 Smart Home Automation Operated by Bluetooth Expertise (Bangladesh Perspective), Best Paper Award by IRAJ": "https://www.digitalxplore.org/up_proc/pdf/431-15644808681-5.pdf",
     "🏆 Static-gesture word recognition in Bangla sign language using convolutional neural network ,Best Paper Award by IRAJ": "http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/24096",
 }
 
@@ -52,7 +53,7 @@ profile_pic = Image.open(profile_pic)
 
 
 # --- HERO SECTION ---
-col1, col2 = st.columns(2, gap="medium")
+col1, col2 = st.columns(2, gap="large")
 with col1:
     st.image(profile_pic, width=350)
 
@@ -144,7 +145,7 @@ st.write(
 - ► Launched Seminar on Robotics and Ongoing technologies
 - ► Led event management teams in World Arduino day by BUP Robotics Club
 - ► Led event management teams in MindExperia by BUP Robotics Club
-- ► personally taught more than 50 students about Robotics and AI
+- ► personally taught more than 100 students about Robotics and AI
 """
 )
 
