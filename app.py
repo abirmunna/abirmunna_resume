@@ -70,7 +70,9 @@ with col2:
 
 
 # --- SOCIAL LINKS ---
+
 st.write('\n')
+st.subheader("Professional Profiles")
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
@@ -84,7 +86,8 @@ st.write(
 - ✔️ Ai enthusiastic, Head of Ai and Data Science teams
 - ✔️ 2+ years experience in Machine Learning and Data Science
 - ✔️ Conference Speaker and Technical/Scientific Researcher
-- ✔️ Co-Founder and CEO of A.I.T GreenEX
+- ✔️ Co-Founder and CEO of A.I.T GreeNEX
+- ✔️Recognized thrice for excellence: Awarded BUP's prestigious Senate Award
 """
 )
 
@@ -157,3 +160,12 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})") 
+
+st.write('\n')
+st.subheader("References")
+st.write("---")
+st.write(":post_office:","Ms. Nandita Barman")
+st.write("""
+- Asst. Professor, Dept. of ICT, BUP
+- Email: nanditabarmandu12@gmail.com
+""")
