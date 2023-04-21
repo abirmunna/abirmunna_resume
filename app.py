@@ -37,7 +37,7 @@ PROJECTS = {
     "🏆 Award winning project in NASA SPACE APPS CHALLENGE 2020": "https://github.com/abirmunna/mym-Trojans",
     "🏆 GreenBD: An initiative of A.I.T GreeNEX to solve solid waste maagement problem in Bangladesh": "https://youtu.be/u1GK763I1PI",
     "🏆 Smart Home Automation Operated by Bluetooth Expertise (Bangladesh Perspective), Best Paper Award by IRAJ": "https://www.digitalxplore.org/up_proc/pdf/431-15644808681-5.pdf",
-    "🏆 Static-gesture word recognition in Bangla sign language using convolutional neural network ,Best Paper Award by IRAJ": "http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/24096",
+    "🏆 Static-gesture word recognition in Bangla sign language using convolutional neural network": "http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/24096",
 }
 
 
