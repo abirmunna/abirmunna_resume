@@ -108,13 +108,29 @@ st.write(
 
 
 # --- WORK HISTORY ---
+
 st.write('\n')
 st.subheader("Work History")
 st.write("---")
 
+
 # --- JOB 1
+st.write("🚧", "**Software Engineer | Beacon Pharmaceuticals Limited**")
+st.write("06/2023 - Present")
+
+
+st.write(
+    """
+- ► Developing the backend of the company's applications using FastAPI.
+- ► Working on IoT projects to connect factory machines, various sensors and make production more efficient.
+- ► Leveragin AI/ML and computer vision to help the company grow and stay ahead of the competition.
+
+"""
+)
+
+# --- JOB 2
 st.write("🚧", "**Co-Founder and CEO | A.I.T GreeNEX**")
-st.write("09/2020 - Present")
+st.write("09/2020 - 05/2023")
 
 
 
@@ -126,7 +142,7 @@ st.write(
 """
 )
 
-# --- JOB 2
+# --- JOB 3
 st.write('\n')
 st.write("🚧", "**AI Ambassador | SOCIAN Ltd.**")
 st.write("05/2021 - 06/2022")
@@ -139,7 +155,7 @@ st.write(
 """
 )
 
-# --- JOB 3
+# --- JOB 4
 st.write('\n')
 st.write("🚧", "**Pesident | BUP ROBOTICS CLUB**")
 st.write("05/2021 - 03/2022")
