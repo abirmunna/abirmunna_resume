@@ -87,7 +87,7 @@ st.write(
 - ✔️ 2+ years experience in Machine Learning and Data Science
 - ✔️ Conference Speaker and Technical/Scientific Researcher
 - ✔️ Co-Founder and CEO of A.I.T GreeNEX
-- ✔️Recognized thrice for excellence: Awarded BUP's prestigious Senate Award
+- ✔️ Recognized thrice for excellence: Awarded BUP's prestigious Senate Award
 """
 )
 
@@ -182,6 +182,11 @@ st.subheader("References")
 st.write("---")
 st.write(":post_office:","Ms. Nandita Barman")
 st.write("""
-- Asst. Professor, Dept. of ICT, BUP
+- Asst. Professor, Dept. of ICT, BUP, BD
 - Email: nanditabarmandu12@gmail.com
+""")
+st.write(":post_office:","Dr. M. Arifur Rahman")
+st.write("""
+- Senior Lecturer, Dept. of CS, NTU, UK
+- Email: muhammad.rahman02@ntu.ac.uk
 """)
