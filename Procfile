@@ -1,1 +1,1 @@
-web: streamlit run app.py --server.port 9136
+web: sh setup.sh && streamlit run app.py --server.port 9136
