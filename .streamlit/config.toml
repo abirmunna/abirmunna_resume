@@ -10,3 +10,8 @@ secondaryBackgroundColor = "#586e75"
 
 # Color used for almost all text.
 textColor = "#fff"
+
+[server]
+headless = true
+enableCORS=false
+port = $PORT
