@@ -12,13 +12,13 @@ profile_pic = current_dir / "assets" / "profile.png"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Abir Hasan Munna"
+PAGE_TITLE = "Md. Abir Hasan Munna"
 PAGE_ICON = "📜"
-NAME = "Abir Hasan Munna"
+NAME = "Md. Abir Hasan Munna"
 DESCRIPTION = """
-Python web developer skilled in building robust and scalable web apps with FastAPI,proficient in 
-front-end tech like HTML/CSS/JS. Expertise in data science tools like Scikit-Learn, 
-Pandas, TensorFlow, and OpenCV to drive impactful solutions.
+Python developer skilled in building robust and scalable applications, proficient in 
+front-end tech like ReactJS, TailwindCSS, Zustand etc. Expertise in tools and frameworks
+like FastAPI, Scikit-Learn, Pandas, TensorFlow, and OpenCV.
 """
 EMAIL = "abirmunna091@gmail.com"
 SOCIAL_MEDIA = {
@@ -34,7 +34,7 @@ PROJECTS = {
     "🏆 The Fast and the Furious: Developed a High-Performance Blog API with FastAPI": "https://blogapi.abirmunna.me/docs",
     "🏆 Built a RESTful ToDo App with FastAPI and Python": "https://github.com/abirmunna/todo_app",
     "🏆 TaskRunner: An app to open your most used softwares in a single click.": "https://github.com/abirmunna/TaskRunner",
-    "🏆 Award winning project in NASA SPACE APPS CHALLENGE 2020": "https://github.com/abirmunna/mym-Trojans",
+    "🏆 NASA SPACE APPS CHALLENGE 2020 Global Nominee": "https://2020.spaceappschallenge.org/challenges/connect/space-exploration-your-backyard/teams/trojans/project",
     "🏆 GreenBD: An initiative of A.I.T GreeNEX to solve solid waste maagement problem in Bangladesh": "https://youtu.be/u1GK763I1PI",
     "🏆 Smart Home Automation Operated by Bluetooth Expertise (Bangladesh Perspective), Best Paper Award by IRAJ": "https://www.digitalxplore.org/up_proc/pdf/431-15644808681-5.pdf",
     "🏆 Static-gesture word recognition in Bangla sign language using convolutional neural network": "http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/24096",
@@ -83,11 +83,11 @@ st.write('\n')
 st.subheader("Experience & Qualifications")
 st.write(
     """
-- ✔️ Ai enthusiastic, Head of Ai and Data Science teams
+- ✔️ Recognized thrice for excellence: Awarded BUP's prestigious Senate Award
+- ✔️ Ai enthusiastic, Head of Ai and Data Science teams at A.I.T GreeNEX
 - ✔️ 2+ years experience in Machine Learning and Data Science
 - ✔️ Conference Speaker and Technical/Scientific Researcher
 - ✔️ Co-Founder and CEO of A.I.T GreeNEX
-- ✔️ Recognized thrice for excellence: Awarded BUP's prestigious Senate Award
 """
 )
 
@@ -97,11 +97,11 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👨‍💻 Programming and Web: Python (sklearn, pandas, numpy, tensorflow, keras, opencv, FastAPI), PHP, HTML, CSS, JavaScript, SQL.
+- 👨‍💻 Programming and Web: Python (sklearn, pandas, numpy, tensorflow, keras, opencv, FastAPI), PHP, HTML, CSS, JavaScript(ReactJS), SQL.
 - 📊 Data Visulization: Matplotlib, Plotly, Seaborn, Streamlit, Gradio
 - 📚 Modeling: Classic ML, Neural Networks, Time Series, NLP, Computer Vision
 - 🗄️ Databases: PostgreSQL, MySQL
-- 💾 Operating Systems: Linux, Windows
+- 💾 Operating Systems: Linux(Ubuntu, CentOS), Windows
 - 🏭 MLOps: Git, mlflow, Docker.
 """
 )
