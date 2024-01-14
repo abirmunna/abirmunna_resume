@@ -85,7 +85,7 @@ st.write(
     """
 - ✔️ Recognized thrice for excellence: Awarded BUP's prestigious Senate Award
 - ✔️ Ai enthusiastic, Head of Ai and Data Science teams at A.I.T GreeNEX
-- ✔️ 2+ years experience in Machine Learning and Data Science
+- ✔️ 3+ years experience in Machine Learning and Data Science
 - ✔️ Conference Speaker and Technical/Scientific Researcher
 - ✔️ Co-Founder and CEO of A.I.T GreeNEX
 """
