@@ -18,7 +18,7 @@ NAME = "Md. Abir Hasan Munna"
 DESCRIPTION = """
 Python developer skilled in building robust and scalable applications, proficient in 
 front-end tech like ReactJS, TailwindCSS, Zustand etc. Expertise in tools and frameworks
-like FastAPI, Scikit-Learn, Pandas, TensorFlow, and OpenCV.
+like FastAPI, Scikit-Learn, Pandas, Selenium, PyAutoGUI, RPA, PyInstaller, TensorFlow, and OpenCV.
 """
 EMAIL = "abirmunna091@gmail.com"
 SOCIAL_MEDIA = {
@@ -35,7 +35,7 @@ PROJECTS = {
     "🏆 Built a RESTful ToDo App with FastAPI and Python": "https://github.com/abirmunna/todo_app",
     "🏆 TaskRunner: An app to open your most used softwares in a single click.": "https://github.com/abirmunna/TaskRunner",
     "🏆 NASA SPACE APPS CHALLENGE 2020 Global Nominee": "https://2020.spaceappschallenge.org/challenges/connect/space-exploration-your-backyard/teams/trojans/project",
-    "🏆 GreenBD: An initiative of A.I.T GreeNEX to solve solid waste maagement problem in Bangladesh": "https://youtu.be/u1GK763I1PI",
+    "🏆 GreenBD: An initiative of A.I.T GreeNEX to solve solid waste management problem in Bangladesh": "https://youtu.be/u1GK763I1PI",
     "🏆 Smart Home Automation Operated by Bluetooth Expertise (Bangladesh Perspective), Best Paper Award by IRAJ": "https://www.digitalxplore.org/up_proc/pdf/431-15644808681-5.pdf",
     "🏆 Static-gesture word recognition in Bangla sign language using convolutional neural network": "http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/24096",
 }
@@ -97,12 +97,12 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👨‍💻 Programming and Web: Python (sklearn, pandas, numpy, tensorflow, keras, opencv, FastAPI), PHP, HTML, CSS, JavaScript(ReactJS), SQL.
+- 👨‍💻 Programming and Web: Python (sklearn, pandas, numpy, Selenium, PyAutoGUI, RPA, PyInstaller, tensorflow, keras, opencv, FastAPI), PHP, HTML, CSS, JavaScript(ReactJS), SQL
 - 📊 Data Visulization: Matplotlib, Plotly, Seaborn, Streamlit, Gradio
 - 📚 Modeling: Classic ML, Neural Networks, Time Series, NLP, Computer Vision
-- 🗄️ Databases: PostgreSQL, MySQL
-- 💾 Operating Systems: Linux(Ubuntu, CentOS), Windows
-- 🏭 MLOps: Git, mlflow, Docker.
+- 🗄️ Databases: PostgreSQL, MySQL, OracleDB, MSSQL
+- 💾 Operating Systems: Linux(Ubuntu, CentOS, Oracle Linux[6,7,8]), Windows
+- 🏭 MLOps: Git, mlflow, Docker
 """
 )
 
