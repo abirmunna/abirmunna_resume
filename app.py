@@ -31,7 +31,7 @@ PROJECTS = {
     "🏆 Road Sign Detection: Project developed with Python and Tensorflow": "https://huggingface.co/spaces/abirmunna/road_sign_recognition",
     "🏆 Dormitory Management: Web-based project developed by PHP": "https://github.com/abirmunna/dorm",
     "🏆 Implementation of MobileNET with gradio to show": "https://huggingface.co/spaces/abirmunna/ML_ui_Mobilenet",
-    "🏆 The Fast and the Furious: Developed a High-Performance Blog API with FastAPI": "https://blogapi.abirmunna.me/docs",
+    "🏆 The Fast and the Furious: Developed a High-Performance Blog API with FastAPI": "https://blogapi-huvp.onrender.com/docs",
     "🏆 Built a RESTful ToDo App with FastAPI and Python": "https://github.com/abirmunna/todo_app",
     "🏆 TaskRunner: An app to open your most used softwares in a single click.": "https://github.com/abirmunna/TaskRunner",
     "🏆 NASA SPACE APPS CHALLENGE 2020 Global Nominee": "https://2020.spaceappschallenge.org/challenges/connect/space-exploration-your-backyard/teams/trojans/project",
