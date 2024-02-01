@@ -18,7 +18,7 @@ NAME = "Md. Abir Hasan Munna"
 DESCRIPTION = """
 Python developer skilled in building robust and scalable applications, proficient in 
 front-end tech like ReactJS, TailwindCSS, Zustand etc. Expertise in tools and frameworks
-like FastAPI, Scikit-Learn, Pandas, Selenium, PyAutoGUI, RPA, PyInstaller, TensorFlow, and OpenCV.
+like FastAPI, Scikit-Learn, Pandas, Selenium, PyAutoGUI, Docker, PyInstaller, TensorFlow, and OpenCV.
 """
 EMAIL = "abirmunna091@gmail.com"
 SOCIAL_MEDIA = {
@@ -84,7 +84,7 @@ st.subheader("Experience & Qualifications")
 st.write(
     """
 - ✔️ Recognized thrice for excellence: Awarded BUP's prestigious Senate Award
-- ✔️ Ai enthusiastic, Head of Ai and Data Science teams at A.I.T GreeNEX
+- ✔️ AI enthusiast, Head of Ai and Data Science teams at A.I.T GreeNEX
 - ✔️ 3+ years experience in Machine Learning and Data Science
 - ✔️ Conference Speaker and Technical/Scientific Researcher
 - ✔️ Co-Founder and CEO of A.I.T GreeNEX
@@ -102,7 +102,7 @@ st.write(
 - 📚 Modeling: Classic ML, Neural Networks, Time Series, NLP, Computer Vision
 - 🗄️ Databases: PostgreSQL, MySQL, OracleDB, MSSQL
 - 💾 Operating Systems: Linux(Ubuntu, CentOS, Oracle Linux[6,7,8]), Windows
-- 🏭 MLOps: Git, mlflow, Docker
+- 🏭 DevOps: Git, mlflow, Docker
 """
 )
 
