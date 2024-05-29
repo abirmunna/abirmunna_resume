@@ -157,7 +157,7 @@ st.write(
 
 # --- JOB 4
 st.write('\n')
-st.write("🚧", "**Pesident | BUP ROBOTICS CLUB**")
+st.write("🚧", "**President | BUP ROBOTICS CLUB**")
 st.write("05/2021 - 03/2022")
 st.write(
     """
