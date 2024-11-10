@@ -115,8 +115,22 @@ st.write("---")
 
 
 # --- JOB 1
+st.write("🚧", "**Assistant Manager, Enterprise Applications | BRAC Enterprises**")
+st.write("09/2024 - Present")
+
+
+st.write(
+    """
+- ► Implement and manage Odoo ERP for operational efficiency and workflow development.
+- ► Train staff on ERP usage, troubleshoot issues, and ensure data integrity.
+- ► Optimize ERP for scalability and performance.
+- ► Collaborate with cross-functional teams and foster a tech-savvy environment.
+
+"""
+)
+
 st.write("🚧", "**Software Engineer | Beacon Pharmaceuticals Limited**")
-st.write("06/2023 - Present")
+st.write("06/2023 - 09/2024")
 
 
 st.write(
