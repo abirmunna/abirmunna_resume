@@ -113,18 +113,39 @@ st.write('\n')
 st.subheader("Work History")
 st.write("---")
 
-
 # --- JOB 1
-st.write("🚧", "**Assistant Manager, Enterprise Applications | BRAC Enterprises**")
-st.write("09/2024 - Present")
+st.write("🚧", "**Assistant Manager, SAP (PP, QM, PM, PS) Lead, IT | Ziska Pharmaceuticals Ltd.**")
+st.write("01/2025 - Present")
 
 
 st.write(
     """
-- ► Implement and manage Odoo ERP for operational efficiency and workflow development.
-- ► Train staff on ERP usage, troubleshoot issues, and ensure data integrity.
-- ► Optimize ERP for scalability and performance.
-- ► Collaborate with cross-functional teams and foster a tech-savvy environment.
+- ► Assist in the end-to-end implementation of SAP across four critical modules (PP, QM, PM, PS) at Ziska Pharmaceuticals, working closely with EY as the implementation partner.
+- ► Coordinate and manage project tasks, ensuring seamless integration and alignment of business processes across the SAP modules.
+- ► Collaborate with cross-functional teams to drive module-specific configurations, testing, and deployment, ensuring alignment with business requirements.
+- ► Oversee and monitor project timelines, milestones, and deliverables, ensuring adherence to schedules and prompt resolution of issues.
+- ► Facilitate communication between internal teams and the EY implementation team, ensuring all project needs and concerns are effectively addressed.
+- ► Lead training sessions for end-users, providing necessary support and ensuring smooth adoption of SAP modules.
+- ► Manage troubleshooting, data integrity checks, and ensure that SAP modules function optimally to support business operations.
+
+"""
+)
+
+
+# --- JOB 2
+st.write("🚧", "**Assistant Manager, Enterprise Applications | BRAC Enterprises**")
+st.write("09/2024 - 12/2024")
+
+
+st.write(
+    """
+- ► Successfully finished the project and went live with fully functioning Odoo ERP system in just 4 months.
+- ► Led the successful delivery of the BRAC AI ERP solution, overseeing cross-functional teams and ensuring seamless execution.
+- ► Managed part of the project (3 Modules) lifecycle, ensuring clear project traceability and adherence to timelines and objectives.
+- ► Optimized ERP systems for scalability, performance, and long-term growth, enhancing overall system effectiveness.
+- ► Fostered strong communication with implementation partners, ensuring project deliverables aligned with user requirements and business goals.
+- ► Provided comprehensive user training, troubleshooting support, and ensured data integrity across ERP platforms.
+
 
 """
 )
@@ -142,7 +163,7 @@ st.write(
 """
 )
 
-# --- JOB 2
+# --- JOB 3
 st.write("🚧", "**Co-Founder and CEO | A.I.T GreeNEX**")
 st.write("09/2020 - 05/2023")
 
@@ -156,7 +177,7 @@ st.write(
 """
 )
 
-# --- JOB 3
+# --- JOB 4
 st.write('\n')
 st.write("🚧", "**AI Ambassador | SOCIAN Ltd.**")
 st.write("05/2021 - 06/2022")
@@ -169,7 +190,7 @@ st.write(
 """
 )
 
-# --- JOB 4
+# --- JOB 5
 st.write('\n')
 st.write("🚧", "**President | BUP ROBOTICS CLUB**")
 st.write("05/2021 - 03/2022")
