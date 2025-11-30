@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Abir Hasan Munna | Resume</title>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: "#f5f7ff",
+              100: "#e3e7ff",
+              200: "#c3c9ff",
+              300: "#9aa3ff",
+              400: "#6a72ff",
+              500: "#4a4fff",
+              600: "#3438db",
+              700: "#2729aa",
+              800: "#1f2180",
+              900: "#181a63",
+            },
+          },
+          boxShadow: {
+            "soft-glow": "0 0 40px rgba(74,79,255,0.35)",
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    /* Subtle animated gradient background blob */
+    .gradient-blob {
+      background: radial-gradient(circle at 0% 0%, rgba(74,79,255,0.35), transparent 60%),
+                  radial-gradient(circle at 100% 100%, rgba(248,250,252,0.7), transparent 55%);
+    }
+
+    .glass-panel {
+      background: rgba(15, 23, 42, 0.82);
+      backdrop-filter: blur(18px);
+    }
+
+    .timeline-line::before {
+      content: "";
+      position: absolute;
+      left: 1.1rem;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(to bottom, #4a4fff, #c3c9ff);
+      opacity: 0.45;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100 gradient-blob">
+
+  <!-- Page wrapper -->
+  <div class="min-h-screen flex justify-center px-4 py-10 sm:px-6 lg:px-10">
+    <div class="max-w-6xl w-full grid gap-8 lg:grid-cols-[340px,1fr]">
+
+      <!-- Left Sidebar -->
+      <aside
+        class="glass-panel rounded-3xl shadow-soft-glow border border-slate-800/80 p-6 sm:p-8 flex flex-col gap-6">
+        <!-- Profile -->
+        <div class="flex flex-col items-center text-center gap-4">
+          <!-- <div class="relative">
+            <div class="absolute -inset-1.5 rounded-full bg-gradient-to-tr from-brand-400 via-fuchsia-500 to-emerald-400 opacity-70 blur"></div>
+            <img src="assets/profile.png" alt="Profile picture of Md. Abir Hasan Munna"
+                 class="relative w-36 h-36 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-slate-950 shadow-xl" />
+          </div> -->
+          <div>
+            <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">
+              Md. Abir Hasan Munna
+            </h1>
+            <p class="mt-1 text-sm font-medium uppercase tracking-[0.2em] text-brand-200">
+              ERP Module Lead (SAP,Odoo) · Python Developer · AI & Data Science
+            </p>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <section class="mt-2 text-sm leading-relaxed text-slate-200/90">
+          <p>
+ERP Module Lead (SAP & Odoo) and Python Developer with 5+ years of experience across enterprise applications, ERP implementation, AI/ML, IoT, and computer vision. Currently leading SAP PP/QM/PM/PS implementation at Ziska Pharmaceuticals with EY. Previously drove Odoo ERP rollout at BRAC Enterprises, achieving Go-Live within four months, and delivered FastAPI, IoT, and AI/ML solutions at Beacon Pharmaceuticals. As Co-Founder & CEO of A.I.T GreeNEX, led a 25+ member engineering team in developing IoT-based Smart Waste Management Systems, earning NASA Space Apps Global Nominee recognition. Passionate about applying AI, data science, and ERP technologies to enable digital transformation in Bangladesh.
+            </p>
+            <br>
+            <p>
+            🏆 3× Senate Award Winner (BUP)
+            🎤 Conference Speaker & Researcher
+            🤝 Bridging the gap between AI innovation, ERP systems, and sustainable solutions
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section class="pt-4 border-t border-slate-800/60">
+          <h2 class="text-xs font-semibold tracking-[0.2em] text-slate-400 uppercase">
+            Contact
+          </h2>
+          <div class="mt-3 space-y-1.5 text-sm">
+            <p class="flex items-center gap-2">
+              <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-500/15 text-brand-200 text-xs">
+                @
+              </span>
+              <a href="mailto:abirmunna091@gmail.com"
+                 class="hover:text-brand-200 hover:underline break-all">
+                abirmunna091@gmail.com
+              </a>
+            </p>
+          </div>
+        </section>
+
+        <!-- Social -->
+        <section class="pt-4 border-t border-slate-800/60">
+          <h2 class="text-xs font-semibold tracking-[0.2em] text-slate-400 uppercase">
+            Professional Profiles
+          </h2>
+          <div class="mt-3 grid grid-cols-1 gap-2 text-sm">
+            <a href="https://www.linkedin.com/in/munna91" target="_blank"
+               class="flex items-center justify-between rounded-lg border border-slate-800/80 bg-slate-900/70 px-3 py-2 hover:border-brand-400/70 hover:bg-slate-900 transition">
+              <span>LinkedIn</span>
+              <span class="text-xs text-slate-400">/munna91</span>
+            </a>
+            <a href="https://github.com/abirmunna" target="_blank"
+               class="flex items-center justify-between rounded-lg border border-slate-800/80 bg-slate-900/70 px-3 py-2 hover:border-brand-400/70 hover:bg-slate-900 transition">
+              <span>GitHub</span>
+              <span class="text-xs text-slate-400">/abirmunna</span>
+            </a>
+            <a href="https://huggingface.co/abirmunna" target="_blank"
+               class="flex items-center justify-between rounded-lg border border-slate-800/80 bg-slate-900/70 px-3 py-2 hover:border-brand-400/70 hover:bg-slate-900 transition">
+              <span>HuggingFace</span>
+              <span class="text-xs text-slate-400">/abirmunna</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=uCFZ3J0AAAAJ&hl=en" target="_blank"
+               class="flex items-center justify-between rounded-lg border border-slate-800/80 bg-slate-900/70 px-3 py-2 hover:border-brand-400/70 hover:bg-slate-900 transition">
+              <span>Google Scholar</span>
+              <span class="text-xs text-slate-400">Research</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- Download CV
+        <section class="pt-4 border-t border-slate-800/60">
+          <button
+            onclick="window.open('assets/Md._Abir_Hasan_Munna_CV.pdf','_blank')"
+            class="w-full inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-500 via-fuchsia-500 to-emerald-400 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-lg hover:shadow-xl hover:brightness-110 transition">
+            <span>📄 Download Resume (PDF)</span>
+          </button>
+        </section> -->
+
+        <!-- Skills (compact) -->
+        <section class="pt-4 border-t border-slate-800/60">
+          <h2 class="text-xs font-semibold tracking-[0.2em] text-slate-400 uppercase">
+            Core Stack
+          </h2>
+          <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
+            <span class="rounded-full bg-slate-900/90 px-3 py-1 border border-slate-700/80">SAP · PP · QM</span>
+            <span class="rounded-full bg-slate-900/90 px-3 py-1 border border-slate-700/80">Odoo · Python</span>
+            <span class="rounded-full bg-slate-900/90 px-3 py-1 border border-slate-700/80">Python · FastAPI</span>
+            <span class="rounded-full bg-slate-900/90 px-3 py-1 border border-slate-700/80">ML · Scikit-Learn</span>
+            <span class="rounded-full bg-slate-900/90 px-3 py-1 border border-slate-700/80">TensorFlow · OpenCV</span>
+            <span class="rounded-full bg-slate-900/90 px-3 py-1 border border-slate-700/80">ReactJS · TailwindCSS</span>
+            <span class="rounded-full bg-slate-900/90 px-3 py-1 border border-slate-700/80">PostgreSQL · MySQL · Oracle</span>
+            <span class="rounded-full bg-slate-900/90 px-3 py-1 border border-slate-700/80">Docker · Git</span>
+          </div>
+        </section>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="space-y-8">
+
+        <!-- Experience & Qualifications -->
+        <section
+          class="glass-panel rounded-3xl border border-slate-800/80 p-6 sm:p-8 shadow-xl shadow-slate-950/50">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <h2 class="text-lg sm:text-xl font-semibold tracking-tight">
+              Experience &amp; Qualifications
+            </h2>
+            <span class="inline-flex items-center rounded-full border border-brand-400/60 bg-brand-500/10 px-3 py-1 text-xs font-medium text-brand-100">
+              5+ years in ERP, ML &amp; Data Science
+            </span>
+          </div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-100/90">
+            <li>✔️ ERP implementation 2x (Ziska Pharmaceuticals-SAP & Brac Enterprises-Odoo)</li>
+            <li>✔️ Recognized thrice for excellence with BUP’s prestigious Senate Award.</li>
+            <li>✔️ AI enthusiast; Head of AI and Data Science teams at A.I.T GreeNEX.</li>
+            <li>✔️ Conference speaker and technical/scientific researcher.</li>
+            <li>✔️ Co-Founder and CEO of A.I.T GreeNEX.</li>
+          </ul>
+        </section>
+
+        <!-- Skills -->
+        <section
+          class="glass-panel rounded-3xl border border-slate-800/80 p-6 sm:p-8 shadow-xl shadow-slate-950/50">
+          <h2 class="text-lg sm:text-xl font-semibold tracking-tight mb-4">
+            Hard Skills
+          </h2>
+          <div class="grid gap-6 lg:grid-cols-2 text-sm">
+            <div class="space-y-2">
+              <h3 class="text-xs font-semibold tracking-[0.2em] uppercase text-slate-400">Programming &amp; Web</h3>
+              <p class="text-slate-100/90">
+                Python (sklearn, pandas, numpy, Selenium, PyAutoGUI, RPA, PyInstaller, tensorflow, keras, opencv, FastAPI),
+                PHP, HTML, CSS, JavaScript (ReactJS), SQL
+              </p>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-xs font-semibold tracking-[0.2em] uppercase text-slate-400">Data Visualization</h3>
+              <p class="text-slate-100/90">
+                Matplotlib, Plotly, Seaborn, Streamlit, Gradio
+              </p>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-xs font-semibold tracking-[0.2em] uppercase text-slate-400">Modeling</h3>
+              <p class="text-slate-100/90">
+                Classic ML, Neural Networks, Time Series, NLP, Computer Vision
+              </p>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-xs font-semibold tracking-[0.2em] uppercase text-slate-400">Databases &amp; DevOps</h3>
+              <p class="text-slate-100/90">
+                PostgreSQL, MySQL, OracleDB, MSSQL · Linux (Ubuntu, CentOS, Oracle Linux 6/7/8), Windows · Git, mlflow, Docker
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Work History -->
+        <section
+          class="glass-panel rounded-3xl border border-slate-800/80 p-6 sm:p-8 shadow-xl shadow-slate-950/50">
+          <div class="flex items-center justify-between gap-3 mb-4">
+            <h2 class="text-lg sm:text-xl font-semibold tracking-tight">
+              Work History
+            </h2>
+            <span class="text-xs text-slate-400">Most recent first</span>
+          </div>
+
+          <div class="relative timeline-line pl-2 sm:pl-4 space-y-6">
+            <!-- Job 1 -->
+            <article class="relative pl-8">
+              <div class="absolute left-0 top-1 flex h-5 w-5 items-center justify-center">
+                <span class="h-3 w-3 rounded-full bg-gradient-to-br from-brand-400 to-fuchsia-400 shadow-soft-glow"></span>
+              </div>
+              <h3 class="font-semibold">
+                Assistant Manager, SAP (PP, QM, PM, PS) Lead, IT | Ziska Pharmaceuticals Ltd.
+              </h3>
+              <p class="text-xs text-slate-400 mt-0.5">01/2025 – Present</p>
+              <ul class="mt-2 text-sm list-disc list-outside ml-4 space-y-1.5 text-slate-100/90">
+                <li>Assist end-to-end implementation of SAP PP, QM, PM, PS at Ziska Pharmaceuticals in partnership with EY.</li>
+                <li>Coordinate project tasks and integration across modules and business processes.</li>
+                <li>Drive configurations, testing, and deployment aligned to business requirements.</li>
+                <li>Monitor timelines, milestones, and deliverables; resolve issues proactively.</li>
+                <li>Bridge communication between internal stakeholders and EY implementation team.</li>
+                <li>Lead user training, support adoption, and manage troubleshooting and data integrity checks.</li>
+              </ul>
+            </article>
+
+            <!-- Job 2 -->
+            <article class="relative pl-8">
+              <div class="absolute left-0 top-1 flex h-5 w-5 items-center justify-center">
+                <span class="h-3 w-3 rounded-full bg-gradient-to-br from-brand-400 to-emerald-400"></span>
+              </div>
+              <h3 class="font-semibold">
+                Assistant Manager, Enterprise Applications | BRAC Enterprises
+              </h3>
+              <p class="text-xs text-slate-400 mt-0.5">09/2024 – 12/2024</p>
+              <ul class="mt-2 text-sm list-disc list-outside ml-4 space-y-1.5 text-slate-100/90">
+                <li>Delivered a fully functioning Odoo ERP implementation in just four months.</li>
+                <li>Led delivery of the BRAC AI ERP solution across multiple modules and teams.</li>
+                <li>Managed project lifecycle for three modules, ensuring traceability and on-time delivery.</li>
+                <li>Optimized ERP for scalability and performance to support long-term growth.</li>
+                <li>Coordinated with implementation partners to align deliverables to business needs.</li>
+                <li>Provided user training, troubleshooting, and maintained data integrity.</li>
+              </ul>
+            </article>
+
+            <!-- Job 3 -->
+            <article class="relative pl-8">
+              <div class="absolute left-0 top-1 flex h-5 w-5 items-center justify-center">
+                <span class="h-3 w-3 rounded-full bg-gradient-to-br from-brand-300 to-fuchsia-500"></span>
+              </div>
+              <h3 class="font-semibold">
+                Software Engineer | Beacon Pharmaceuticals Limited
+              </h3>
+              <p class="text-xs text-slate-400 mt-0.5">06/2023 – 09/2024</p>
+              <ul class="mt-2 text-sm list-disc list-outside ml-4 space-y-1.5 text-slate-100/90">
+                <li>Developed backend for internal applications using FastAPI.</li>
+                <li>Worked on IoT projects to connect factory machines and sensors to improve production efficiency.</li>
+                <li>Applied AI/ML and computer vision to create competitive, data-driven solutions.</li>
+              </ul>
+            </article>
+
+            <!-- Job 4 -->
+            <article class="relative pl-8">
+              <div class="absolute left-0 top-1 flex h-5 w-5 items-center justify-center">
+                <span class="h-3 w-3 rounded-full bg-gradient-to-br from-fuchsia-400 to-emerald-400"></span>
+              </div>
+              <h3 class="font-semibold">
+                Co-Founder and CEO | A.I.T GreeNEX
+              </h3>
+              <p class="text-xs text-slate-400 mt-0.5">09/2020 – 05/2023</p>
+              <ul class="mt-2 text-sm list-disc list-outside ml-4 space-y-1.5 text-slate-100/90">
+                <li>Led 25+ developers to build and deploy smartBin, an IoT solution for sustainable waste management (GreenBD).</li>
+                <li>Leveraged IoT, Python, and data science to solve real-world environmental challenges.</li>
+                <li>Built an innovation-driven culture with focus on both technical excellence and team growth.</li>
+              </ul>
+            </article>
+
+            <!-- Job 5 -->
+            <article class="relative pl-8">
+              <div class="absolute left-0 top-1 flex h-5 w-5 items-center justify-center">
+                <span class="h-3 w-3 rounded-full bg-gradient-to-br from-brand-300 to-brand-600"></span>
+              </div>
+              <h3 class="font-semibold">
+                AI Ambassador | SOCIAN Ltd.
+              </h3>
+              <p class="text-xs text-slate-400 mt-0.5">05/2021 – 06/2022</p>
+              <ul class="mt-2 text-sm list-disc list-outside ml-4 space-y-1.5 text-slate-100/90">
+                <li>Represented SOCIAN’s AI technologies and products.</li>
+                <li>Received intensive technological training and mentorship.</li>
+                <li>Communicated technical plans and architectures to broader ambassador network.</li>
+              </ul>
+            </article>
+
+            <!-- Job 6 -->
+            <article class="relative pl-8">
+              <div class="absolute left-0 top-1 flex h-5 w-5 items-center justify-center">
+                <span class="h-3 w-3 rounded-full bg-gradient-to-br from-brand-100 to-fuchsia-300"></span>
+              </div>
+              <h3 class="font-semibold">
+                President | BUP Robotics Club
+              </h3>
+              <p class="text-xs text-slate-400 mt-0.5">05/2021 – 03/2022</p>
+              <ul class="mt-2 text-sm list-disc list-outside ml-4 space-y-1.5 text-slate-100/90">
+                <li>Organized seminars on robotics and emerging technologies.</li>
+                <li>Led event management for World Arduino Day and MindExperia events.</li>
+                <li>Taught 100+ students on Robotics and AI fundamentals.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <!-- Projects & Accomplishments -->
+        <section
+          class="glass-panel rounded-3xl border border-slate-800/80 p-6 sm:p-8 shadow-xl shadow-slate-950/50">
+          <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+            <h2 class="text-lg sm:text-xl font-semibold tracking-tight">
+              Projects &amp; Accomplishments
+            </h2>
+            <span class="text-xs text-slate-400">Selected highlights</span>
+          </div>
+
+          <div class="grid gap-4 md:grid-cols-2">
+            <!-- Each project as a card -->
+            <a href="https://huggingface.co/spaces/abirmunna/road_sign_recognition" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 Road Sign Detection
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                Road sign recognition with Python and TensorFlow (HuggingFace Space).
+              </p>
+            </a>
+
+            <a href="https://github.com/abirmunna/dorm" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 Dormitory Management
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                Web-based dormitory management system developed with PHP.
+              </p>
+            </a>
+
+            <a href="https://huggingface.co/spaces/abirmunna/ML_ui_Mobilenet" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 MobileNet + Gradio
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                MobileNet implementation with Gradio UI for interactive ML demos.
+              </p>
+            </a>
+
+            <a href="https://blogapi-huvp.onrender.com/docs" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 High-Performance Blog API
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                FastAPI-based REST blog API emphasizing performance and clean design.
+              </p>
+            </a>
+
+            <a href="https://github.com/abirmunna/todo_app" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 FastAPI ToDo App
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                RESTful ToDo application implemented with FastAPI and Python.
+              </p>
+            </a>
+
+            <a href="https://github.com/abirmunna/TaskRunner" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 TaskRunner
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                Desktop utility to launch frequently used software with a single click.
+              </p>
+            </a>
+
+            <a href="https://2020.spaceappschallenge.org/challenges/connect/space-exploration-your-backyard/teams/trojans/project"
+               target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 NASA Space Apps 2020 Global Nominee
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                Recognized as a global nominee for innovative solutions in NASA Space Apps Challenge.
+              </p>
+            </a>
+
+            <a href="https://youtu.be/u1GK763I1PI" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 GreenBD · smartBin (A.I.T GreeNEX)
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                IoT-based solid waste management initiative for Bangladesh.
+              </p>
+            </a>
+
+            <a href="https://www.digitalxplore.org/up_proc/pdf/431-15644808681-5.pdf" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 Smart Home Automation – Best Paper Award (IRAJ)
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                “Smart Home Automation Operated by Bluetooth Expertise (Bangladesh Perspective)” – Best Paper Award by IRAJ.
+              </p>
+            </a>
+
+            <a href="http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/24096" target="_blank"
+               class="group rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4 hover:border-brand-400/70 hover:-translate-y-0.5 hover:shadow-soft-glow transition">
+              <h3 class="text-sm font-semibold group-hover:text-brand-100">
+                🏆 Bangla Sign Language Gesture Recognition
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                “Static-gesture word recognition in Bangla sign language using CNN” (TELKOMNIKA).
+              </p>
+            </a>
+          </div>
+        </section>
+
+        <!-- References -->
+        <section
+          class="glass-panel rounded-3xl border border-slate-800/80 p-6 sm:p-8 shadow-xl shadow-slate-950/50 mb-4">
+          <h2 class="text-lg sm:text-xl font-semibold tracking-tight mb-4">
+            References
+          </h2>
+          <div class="grid gap-4 md:grid-cols-2 text-sm">
+            <div class="rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4">
+              <p class="text-xs uppercase tracking-[0.2em] text-slate-400 mb-1">
+                Academic Reference
+              </p>
+              <p class="font-semibold">Ms. Nandita Barman</p>
+              <p class="text-slate-300 text-sm">
+                Asst. Professor, Dept. of ICT, BUP, Bangladesh
+              </p>
+              <p class="mt-2 text-xs text-slate-400">
+                Email: <a href="mailto:nanditabarmandu12@gmail.com" class="hover:text-brand-200 hover:underline">
+                  nanditabarmandu12@gmail.com
+                </a>
+              </p>
+            </div>
+            <div class="rounded-2xl border border-slate-800/80 bg-slate-900/70 p-4">
+              <p class="text-xs uppercase tracking-[0.2em] text-slate-400 mb-1">
+                Academic Reference
+              </p>
+              <p class="font-semibold">Dr. M. Arifur Rahman</p>
+              <p class="text-slate-300 text-sm">
+                Senior Lecturer, Dept. of CS, Nottingham Trent University, UK
+              </p>
+              <p class="mt-2 text-xs text-slate-400">
+                Email: <a href="mailto:muhammad.rahman02@ntu.ac.uk" class="hover:text-brand-200 hover:underline">
+                  muhammad.rahman02@ntu.ac.uk
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+</body>
+</html>
